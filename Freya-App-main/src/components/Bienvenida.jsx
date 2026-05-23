@@ -109,7 +109,7 @@ const Bienvenida = () => {
       <div className="bienvenida__main-container">
         {/* Wrapper para móvil: solo visible en móvil, oculta en desktop */}
         <div className="bienvenida__mobile-wrapper">
-          <img src={process.env.PUBLIC_URL + '/ASSETS/freya_logo.svg'} alt="Logo Freya" className="bienvenida__logo" />
+          <img src={'/ASSETS/freya_logo.svg'} alt="Logo Freya" className="bienvenida__logo" />
           <h1 className="bienvenida__title">Freya-app</h1>
           {/* FORMULARIO: va aquí en móvil */}
           <div className="bienvenida__card">
@@ -221,7 +221,7 @@ const Bienvenida = () => {
         </div>
         {/* Layout original para desktop/tablet */}
         <div className="bienvenida__left">
-          <img src={process.env.PUBLIC_URL + '/ASSETS/freya_logo.svg'} alt="Logo Freya" className="bienvenida__logo" />
+          <img src={'/ASSETS/freya_logo.svg'} alt="Logo Freya" className="bienvenida__logo" />
           <h1 className="bienvenida__title">Freya-app</h1>
           <p className="bienvenida__desc">Tu plataforma educativa para gestionar tus estudios de manera eficiente</p>
           <div className="bienvenida__benefits">

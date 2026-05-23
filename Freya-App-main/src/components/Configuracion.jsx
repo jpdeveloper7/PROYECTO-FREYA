@@ -812,22 +812,22 @@ function Configuracion() {
   const [showAvatarModal, setShowAvatarModal] = useState(false);
   // Lista de avatares disponibles (usando rutas públicas)
   const avatarList = [
-    process.env.PUBLIC_URL + '/ASSETS/avatar1.jpg',
-    process.env.PUBLIC_URL + '/ASSETS/avatar2.jpg',
-    process.env.PUBLIC_URL + '/ASSETS/avatar3.jpg',
-    process.env.PUBLIC_URL + '/ASSETS/avatar4.jpg',
-    process.env.PUBLIC_URL + '/ASSETS/avatar5.jpg',
-    process.env.PUBLIC_URL + '/ASSETS/avatar6.jpg',
-    process.env.PUBLIC_URL + '/ASSETS/avatar7.jpg',
-    process.env.PUBLIC_URL + '/ASSETS/avatar8.jpg',
-    process.env.PUBLIC_URL + '/ASSETS/avatar9.jpg',
-    process.env.PUBLIC_URL + '/ASSETS/avatar10.jpg',
-    process.env.PUBLIC_URL + '/ASSETS/avatar11.jpg',
-    process.env.PUBLIC_URL + '/ASSETS/avatar mapache.png',
-    process.env.PUBLIC_URL + '/ASSETS/avatar pinguino.png',
-    process.env.PUBLIC_URL + '/ASSETS/avatar rana.png',
-    process.env.PUBLIC_URL + '/ASSETS/avatar erizo.png',
-    process.env.PUBLIC_URL + '/ASSETS/avatar conejillo-de-indias.png',
+    '/ASSETS/avatar1.jpg',
+    '/ASSETS/avatar2.jpg',
+    '/ASSETS/avatar3.jpg',
+    '/ASSETS/avatar4.jpg',
+    '/ASSETS/avatar5.jpg',
+    '/ASSETS/avatar6.jpg',
+    '/ASSETS/avatar7.jpg',
+    '/ASSETS/avatar8.jpg',
+    '/ASSETS/avatar9.jpg',
+    '/ASSETS/avatar10.jpg',
+    '/ASSETS/avatar11.jpg',
+    '/ASSETS/avatar mapache.png',
+    '/ASSETS/avatar pinguino.png',
+    '/ASSETS/avatar rana.png',
+    '/ASSETS/avatar erizo.png',
+    '/ASSETS/avatar conejillo-de-indias.png',
   ];
 
   // Nueva función para seleccionar avatar de la lista
