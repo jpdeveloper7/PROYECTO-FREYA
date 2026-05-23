@@ -479,7 +479,7 @@ const Home = () => {
                 {/* Promedio General después en móvil */}
                 <div className="resumen__card" style={{ flex: 1, minWidth: 0, display: 'flex', alignItems: 'center', justifyContent: 'flex-start', gap: '0', paddingLeft: '32px' }}>
                   <img
-                    src={process.env.PUBLIC_URL + '/ASSETS/animacion_1.png'}
+                    src={'/ASSETS/animacion_1.png'}
                     alt="Animación"
                     style={{
                       height: isExtraSmallMobile ? '80px' : isSmallMobile ? '95px' : '110px',
@@ -510,7 +510,7 @@ const Home = () => {
                 {/* Promedio General primero en desktop */}
                 <div className="resumen__card" style={{ flex: 1, minWidth: 0, display: 'flex', alignItems: 'center', justifyContent: 'flex-start', gap: '0', paddingLeft: '32px' }}>
                   <img
-                    src={process.env.PUBLIC_URL + '/ASSETS/animacion_1.png'}
+                    src={'/ASSETS/animacion_1.png'}
                     alt="Animación"
                     style={{
                       height: '200px',

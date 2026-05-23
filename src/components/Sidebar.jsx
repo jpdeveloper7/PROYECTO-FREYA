@@ -38,7 +38,7 @@ const Sidebar = ({ location, navigate, open = false, onClose }) => (
         onClick={e => e.stopPropagation()}
       >
         <div className="sidebar__logo" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-          <img src={process.env.PUBLIC_URL + "/ASSETS/freya_logo.svg"} alt="Logo Freya" style={{ width: 32, height: 32 }} />
+          <img src={'/ASSETS/freya_logo.svg'} alt="Logo Freya" style={{ width: 32, height: 32 }} />
           Freya-app
         </div>
         <nav className="sidebar__nav">
@@ -53,7 +53,7 @@ const Sidebar = ({ location, navigate, open = false, onClose }) => (
   ) : (
     <aside className="dashboard__sidebar">
       <div className="sidebar__logo" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-        <img src={process.env.PUBLIC_URL + "/ASSETS/freya_logo.svg"} alt="Logo Freya" style={{ width: 32, height: 32 }} />
+        <img src={'/ASSETS/freya_logo.svg'} alt="Logo Freya" style={{ width: 32, height: 32 }} />
         Freya-app
       </div>
       <nav className="sidebar__nav">
