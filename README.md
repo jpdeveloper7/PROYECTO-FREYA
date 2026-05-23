@@ -68,3 +68,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Environment variables & deployment
+
+This project reads Firebase configuration from environment variables at build time. Add the following variables in your local `.env.local` (do not commit this file) or in your hosting provider (e.g., Vercel) as `REACT_APP_` variables:
+
+- `REACT_APP_FIREBASE_API_KEY`
+- `REACT_APP_FIREBASE_AUTH_DOMAIN`
+- `REACT_APP_FIREBASE_PROJECT_ID`
+- `REACT_APP_FIREBASE_STORAGE_BUCKET`
+- `REACT_APP_FIREBASE_MESSAGING_SENDER_ID`
+- `REACT_APP_FIREBASE_APP_ID`
+- `REACT_APP_FIREBASE_MEASUREMENT_ID` (optional)
+
+We include an example file at `.env.example` (in the repo). For Vercel, add these under Project → Settings → Environment Variables and redeploy.
+
+## Continuous Integration
+
+A GitHub Actions workflow has been added to run `npm ci`, `npm test` and `npm run build` for pushes and pull requests against `main`. This helps prevent regressions by running tests and the production build automatically.
+
