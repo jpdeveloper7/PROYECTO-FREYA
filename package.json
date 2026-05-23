@@ -41,7 +41,8 @@
     ]
     ,
     "moduleNameMapper": {
-      "\\.(css|less|scss)$": "<rootDir>/src/__mocks__/styleMock.js"
+      "\\.(css|less|scss)$": "<rootDir>/src/__mocks__/styleMock.js",
+      "^sweetalert2$": "<rootDir>/src/__mocks__/sweetalert2.js"
     }
   },
   "browserslist": {
