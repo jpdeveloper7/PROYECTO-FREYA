@@ -3,13 +3,13 @@
 /* Definición de fuentes personalizadas */
 @font-face {
     font-family: "megabyte";
-    src: url("/public/ASSETS/megabyte-cufonfonts/MegabyteBold.otf") format("opentype");
+    src: url("/ASSETS/megabyte-cufonfonts/MegabyteBold.otf") format("opentype");
     font-weight: bold;
 }
 
 @font-face {
     font-family: "gidole";
-    src: url(/public/ASSETS/Gidole/Gidole-Regular.ttf) format("opentype");
+    src: url("/ASSETS/Gidole/Gidole-Regular.ttf") format("opentype");
 }
 
 /* Reset global de estilos para todos los elementos */
