@@ -1,16 +1,6 @@
 /* ===== ESTILOS GLOBALES DE LA APLICACIÓN ===== */
 
-/* Definición de fuentes personalizadas */
-@font-face {
-    font-family: "megabyte";
-    src: url("/ASSETS/megabyte-cufonfonts/MegabyteBold.otf") format("opentype");
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: "gidole";
-    src: url("/ASSETS/Gidole/Gidole-Regular.ttf") format("opentype");
-}
+/* Las fuentes personalizadas se cargan desde el directorio público (declaradas en public/index.html) */
 
 /* Reset global de estilos para todos los elementos */
 * {
